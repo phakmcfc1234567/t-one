@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
+    font-family: 'Kanit';
   }
 :root {
     --primary: #da0606;
@@ -69,24 +70,27 @@ h1,
 h2,
 .fw-bold {
     font-weight: 800 !important;
+    font-family: 'Kanit';
 }
 
 h3,
 h4,
 .fw-semi-bold {
     font-weight: 700 !important;
+    font-family: 'Kanit';
 }
 
 h5,
 h6,
 .fw-medium {
     font-weight: 600 !important;
+    font-family: 'Kanit';
 }
 
 
 /*** Button ***/
 .btn {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-weight: 600;
     transition: .5s;
     background: linear-gradient(to right, #ed213a, #93291e);
@@ -146,13 +150,13 @@ h6,
 
 /*** Navbar ***/
 .navbar-dark .navbar-nav .nav-link {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Kanit', sans-serif;
     position: relative;
     margin-left: 25px;
     padding: 35px 0;
-    color: #FFFFFF;
+    color: #080808;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 900;
     outline: none;
     transition: .5s;
 }
