@@ -1,7 +1,14 @@
 
 body {
-  font-family: 'Kanit', sans-serif;
-  color: #444444;
+  font-family: "kanit", sans-serif;
+  padding: 100px;
+  background-image: url('../img/bg.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding: auto;
+  overflow: auto;
+  color: #070707;
 }
 
 a {
@@ -30,7 +37,7 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
+  left: 15px;
   bottom: 15px;
   z-index: 996;
   background: #e03a3c;
