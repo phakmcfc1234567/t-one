@@ -2,7 +2,7 @@
 body {
   font-family: "kanit", sans-serif;
   padding: 100px;
-  background-image: url('../img/bg.webp');
+  background-image: url('../img/bg1.webp');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -40,7 +40,7 @@ h6 {
   left: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #e03a3c;
+  background: linear-gradient(to right, #333333, #dd1818);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -54,7 +54,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #f80307;
+  background: linear-gradient(to right, #333333, #dd1818);
   color: #070707;
 }
 
@@ -101,7 +101,7 @@ h6 {
 }
 
 #header .logo a span {
-  color: #e03a3c;
+  color: #f30408;
 }
 
 #header .logo img {
@@ -146,7 +146,7 @@ h6 {
 --------------------------------------------------------------*/
 .get-started-btn {
   margin-left: 30px;
-  background: #e03a3c;
+  background: linear-gradient(to right, #333333, #dd1818);
   color: #fff;
   border-radius: 4px;
   padding: 8px 25px;
@@ -158,7 +158,7 @@ h6 {
 }
 
 .get-started-btn:hover {
-  background: #111111;
+  background: linear-gradient(to right, #333333, #dd1818);
   color: #fff;
 }
 
@@ -197,7 +197,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Raleway", sans-serif;
+  font-family: "kanit", sans-serif;
   font-size: 15px;
   font-weight: 600;
   color: #111111;
@@ -229,7 +229,7 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: linear-gradient(to right, #333333, #dd1818);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -334,7 +334,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background: linear-gradient(to right, #333333, #dd1818);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -365,7 +365,7 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: linear-gradient(to right, #333333, #dd1818);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -447,7 +447,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #e03a3c;
+  background: linear-gradient(to right, #333333, #dd1818);
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -463,7 +463,7 @@ section {
 
 .section-bg:before {
   content: "";
-  background: #1b1b1b;
+  background: linear-gradient(to right, #333333, #dd1818);
   position: absolute;
   bottom: 60px;
   top: 60px;
@@ -477,7 +477,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #2b2b2b;
+  background: linear-gradient(to right, #333333, #dd1818);
   min-height: 40px;
   margin-top: 82px;
   color: #fff;
@@ -513,7 +513,7 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #e03a3c;
+  color: #ee090d;
   content: "/";
 }
 
@@ -528,13 +528,13 @@ section {
 .clients .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background: linear-gradient(to right, #333333, #dd1818);
   opacity: 1;
-  border: 1px solid #e03a3c;
+  border: 1px solid #080808;
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #e03a3c;
+  background: linear-gradient(to right, #333333, #dd1818);
 }
 
 .clients .swiper-slide img {
@@ -589,8 +589,8 @@ section {
 }
 
 .about .content .about-btn:hover {
-  background: #e35052;
-  background: #e03a3c;
+  background: linear-gradient(to right, #333333, #dd1818);
+  background: #f10307;
 }
 
 .about .icon-boxes .icon-box {
@@ -599,7 +599,7 @@ section {
 
 .about .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #e03a3c;
+  color: #f30509;
   margin-bottom: 10px;
 }
 
@@ -611,7 +611,7 @@ section {
 
 .about .icon-boxes .icon-box p {
   font-size: 15px;
-  color: #848484;
+  color: #080808;
 }
 
 @media (max-width: 1200px) {
@@ -650,8 +650,8 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #fff;
-  color: #e03a3c;
+  background: linear-gradient(to right, #333333, #dd1818);
+  color: #070707;
   border-radius: 50px;
   border: 2px solid #fff;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
@@ -670,7 +670,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "kanit", sans-serif;
   font-size: 14px;
 }
 
@@ -682,7 +682,7 @@ section {
 }
 
 .tabs .nav-link {
-  border: 1px solid #b9b9b9;
+  border: 1px solid #050505;
   padding: 15px;
   transition: 0.3s;
   color: #111111;
@@ -709,9 +709,9 @@ section {
 }
 
 .tabs .nav-link.active {
-  background: #e03a3c;
+  background: linear-gradient(to right, #333333, #dd1818);
   color: #fff;
-  border-color: #e03a3c;
+  border-color: #0a0a0a;
 }
 
 @media (max-width: 768px) {
@@ -840,7 +840,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #e03a3c;
+  background: linear-gradient(to right, #333333, #dd1818);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -953,11 +953,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #e03a3c;
+  border: 1px solid #080808;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #e03a3c;
+  background: linear-gradient(to right, #333333, #dd1818);
 }
 
 .portfolio-details .portfolio-info {
@@ -1071,11 +1071,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #e03a3c;
+  border: 1px solid #070707;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #e03a3c;
+  background: linear-gradient(to right, #333333, #dd1818);
 }
 
 /*--------------------------------------------------------------
@@ -1083,7 +1083,7 @@ section {
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
-  background: #2b2b2b;
+  background: linear-gradient(to right, #333333, #dd1818);
   text-align: center;
   border-radius: 8px;
   position: relative;
@@ -1101,7 +1101,7 @@ section {
 .pricing .box h4 {
   font-size: 42px;
   font-weight: 500;
-  font-family: "Open Sans", sans-serif;
+  font-family: "kanit", sans-serif;
   margin-bottom: 20px;
 }
 
@@ -1152,7 +1152,7 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Raleway", sans-serif;
+  font-family: "kanit", sans-serif;
   font-weight: 600;
   transition: 0.3s;
   border: 2px solid rgba(255, 255, 255, 0.3);
@@ -1163,7 +1163,7 @@ section {
 }
 
 .pricing .featured {
-  background: #e03a3c;
+  background: linear-gradient(to right, #333333, #dd1818);
 }
 
 /*--------------------------------------------------------------
@@ -1258,7 +1258,7 @@ section {
   border-radius: 50px;
   width: 36px;
   height: 36px;
-  background: #e03a3c;
+  background: linear-gradient(to right, #333333, #dd1818);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1347,7 +1347,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: linear-gradient(to right, #333333, #dd1818);
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1360,7 +1360,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: linear-gradient(to right, #333333, #dd1818);
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1380,7 +1380,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #0a0a0a;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -1410,7 +1410,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #e03a3c;
+  background: linear-gradient(to right, #333333, #dd1818);
   border: 0;
   padding: 10px 32px;
   color: #fff;
@@ -1632,7 +1632,7 @@ section {
   font-size: 22px;
   margin-bottom: 0px;
   padding: 0;
-  color: #111111;
+  color: #050505;
 }
 
 .blog .blog-author .social-links {
@@ -1677,17 +1677,17 @@ section {
 
 .blog .blog-comments .comment h5 a {
   font-weight: bold;
-  color: #444444;
+  color: #070707;
   transition: 0.3s;
 }
 
 .blog .blog-comments .comment h5 a:hover {
-  color: #e03a3c;
+  color: #fc0307;
 }
 
 .blog .blog-comments .comment h5 .reply {
   padding-left: 10px;
-  color: #111111;
+  color: #070707;
 }
 
 .blog .blog-comments .comment h5 .reply i {
@@ -1697,7 +1697,7 @@ section {
 .blog .blog-comments .comment time {
   display: block;
   font-size: 14px;
-  color: #2b2b2b;
+  color: #080808;
   margin-bottom: 5px;
 }
 
@@ -1728,7 +1728,7 @@ section {
 
 .blog .blog-comments .reply-form input:focus {
   box-shadow: none;
-  border-color: #ee9293;
+  border-color: #0a0a0a;
 }
 
 .blog .blog-comments .reply-form textarea {
@@ -1739,7 +1739,7 @@ section {
 
 .blog .blog-comments .reply-form textarea:focus {
   box-shadow: none;
-  border-color: #ee9293;
+  border-color: #080808;
 }
 
 .blog .blog-comments .reply-form .form-group {
@@ -1946,12 +1946,12 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: #111111;
+  background: linear-gradient(to right, #333333, #dd1818);
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #1b1b1b;
+  background: linear-gradient(to right, #333333, #dd1818);
 }
 
 #footer .footer-top .footer-contact {
@@ -1965,7 +1965,7 @@ section {
 }
 
 #footer .footer-top .footer-contact h3 span {
-  color: #e03a3c;
+  color: #f80509;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1988,7 +1988,7 @@ section {
   display: block;
   width: 20px;
   height: 2px;
-  background: #e03a3c;
+  background: #f80307;
   bottom: 0;
   left: 0;
 }
@@ -2067,7 +2067,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #e03a3c;
+  background: linear-gradient(to right, #333333, #dd1818);
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -2075,7 +2075,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #e35052;
+  background: linear-gradient(to right, #333333, #dd1818);
 }
 
 #footer .credits {
@@ -2086,7 +2086,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2b2b2b;
+  background: linear-gradient(to right, #333333, #dd1818);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
