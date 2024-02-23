@@ -1,4 +1,3 @@
-
 body {
   font-family: 'Kanit', sans-serif;
   color: #000000;
@@ -10,7 +9,7 @@ a {
 }
 
 a:hover {
-  color: #dd1818;
+  color: #E50000;
   text-decoration: none;
 }
 
@@ -42,7 +41,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #dd1818;
+  border: 6px solid #E50000;
   border-top-color: #ecf8f9;
   border-radius: 50%;
   width: 60px;
@@ -70,7 +69,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -106,11 +105,11 @@ h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #ba0000;
   color: #fff;
   height: 40px;
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 400;
   z-index: 996;
   transition: all 0.5s;
 }
@@ -147,11 +146,11 @@ h6 {
 }
 
 #header .logo {
-  font-size: 26px;
+  font-size: 22px;
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-weight: 800;
+  font-weight: 500;
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
@@ -161,7 +160,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 100px;
 }
 
 @media (max-width: 768px) {
@@ -219,7 +218,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #dd1818;
+  color: #E50000;
 }
 
 .navbar .dropdown ul {
@@ -254,7 +253,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #dd1818;
+  color: #E50000;
 }
 
 .navbar .dropdown:hover>ul {
@@ -354,7 +353,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #dd1818;
+  color: #E50000;
 }
 
 .navbar-mobile .dropdown ul {
@@ -384,7 +383,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #dd1818;
+  color: #E50000;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -496,7 +495,7 @@ h6 {
 
 #hero .carousel-control-next-icon:hover,
 #hero .carousel-control-prev-icon:hover {
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -515,7 +514,7 @@ h6 {
 
 #hero .carousel-indicators li.active {
   opacity: 1;
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
 }
 
 #hero .btn-get-started {
@@ -529,7 +528,7 @@ h6 {
   transition: 0.5s;
   line-height: 1;
   color: #fff;
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
 }
 
 #hero .btn-get-started:hover {
@@ -598,7 +597,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -696,7 +695,7 @@ section {
 }
 
 .featured-services .icon-box:hover::before {
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
   top: 0;
   border-radius: 0px;
 }
@@ -741,7 +740,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
   color: #fff;
   background-size: cover;
   padding: 60px 0;
@@ -814,7 +813,7 @@ section {
 .counts .count-box i {
   display: block;
   font-size: 30px;
-  color: #dd1818;
+  color: #E50000;
   float: left;
 }
 
@@ -860,7 +859,7 @@ section {
 .features .icon-box i {
   font-size: 48px;
   float: left;
-  color: #dd1818;
+  color: #E50000;
 }
 
 .features .icon-box p {
@@ -894,7 +893,7 @@ section {
   background: #fff;
   border-radius: 50%;
   transition: 0.5s;
-  color: #dd1818;
+  color: #E50000;
   overflow: hidden;
   box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
 }
@@ -922,7 +921,7 @@ section {
 }
 
 .services .title a:hover {
-  color: #dd1818;
+  color: #E50000;
 }
 
 .services .title::after {
@@ -931,7 +930,7 @@ section {
   display: block;
   width: 50px;
   height: 2px;
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -963,7 +962,7 @@ section {
 .appointment .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
   text-align: left;
   padding: 15px;
   font-weight: 700;
@@ -976,7 +975,7 @@ section {
 .appointment .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
   text-align: center;
   padding: 15px;
   font-weight: 700;
@@ -1026,7 +1025,7 @@ section {
 }
 
 .appointment .php-email-form button[type=submit] {
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1071,11 +1070,11 @@ section {
 
 .departments .nav-link.active {
   background: #f7fcfc;
-  border-color: #dd1818;
+  border-color: #E50000;
 }
 
 .departments .nav-link.active h4 {
-  color: #dd1818;
+  color: #E50000;
 }
 
 .departments .tab-pane.active {
@@ -1100,7 +1099,7 @@ section {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #dd1818;
+  color: #E50000;
 }
 
 .departments .tab-pane p {
@@ -1158,7 +1157,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #dd1818;
+  color: #E50000;
   font-size: 26px;
 }
 
@@ -1200,7 +1199,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
 }
 
 /*--------------------------------------------------------------
@@ -1248,7 +1247,7 @@ section {
 }
 
 .doctors .member .social a:hover {
-  color: #dd1818;
+  color: #E50000;
 }
 
 .doctors .member .social i {
@@ -1305,7 +1304,7 @@ section {
 }
 
 .gallery .swiper-pagination .swiper-pagination-bullet-active {
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
 }
 
 .gallery .swiper-slide-active {
@@ -1384,7 +1383,7 @@ section {
 }
 
 .pricing ul i {
-  color: #dd1818;
+  color: #E50000;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1402,7 +1401,7 @@ section {
 }
 
 .pricing .btn-buy {
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
   display: inline-block;
   padding: 8px 35px 10px 35px;
   border-radius: 4px;
@@ -1421,7 +1420,7 @@ section {
 
 .pricing .featured h3 {
   color: #fff;
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
 }
 
 .pricing .advanced {
@@ -1433,7 +1432,7 @@ section {
   z-index: 1;
   font-size: 18px;
   padding: 1px 0 3px 0;
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
   color: #fff;
 }
 
@@ -1464,7 +1463,7 @@ section {
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color: #dd1818;
+  color: #E50000;
   transition: 0.3s;
 }
 
@@ -1489,7 +1488,7 @@ section {
 }
 
 .faq .faq-list .collapsed:hover {
-  color: #dd1818;
+  color: #E50000;
 }
 
 .faq .faq-list .collapsed .icon-show {
@@ -1514,7 +1513,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #dd1818;
+  color: #E50000;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #000000;
@@ -1542,7 +1541,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
   text-align: left;
   padding: 15px;
   font-weight: 700;
@@ -1555,7 +1554,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
   text-align: center;
   padding: 15px;
   font-weight: 700;
@@ -1563,7 +1562,7 @@ section {
 
 .contact .php-email-form .loading {
   display: none;
-  background: #dd1818;
+  background: #E50000;
   text-align: center;
   padding: 15px;
 }
@@ -1601,7 +1600,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1700,7 +1699,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #dd1818;
+  color: #E50000;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1727,7 +1726,7 @@ section {
   background: none;
   font-size: 18px;
   padding: 0 20px;
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -1748,13 +1747,14 @@ section {
   font-size: 18px;
 }
 .dropbtn {
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
   color: white;
-  padding: 16px;
-  font-size: 18px;
-  border: none;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 30px;
+  border-color: #E50000;
 }
 
 .dropdown {
@@ -1778,14 +1778,14 @@ section {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #E50000;}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #000000;
+  background-color: #E50000;
 }
 
 /*--------------------------------------------------------------
@@ -1829,7 +1829,7 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #dd1818;
+  color: #E50000;
   content: "/";
 }
 
@@ -1911,7 +1911,7 @@ section {
 
 .blog .entry .entry-content .read-more a {
   display: inline-block;
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
   color: #fff;
   padding: 6px 20px;
   transition: 0.3s;
@@ -1974,7 +1974,7 @@ section {
 }
 
 .blog .entry .entry-footer a:hover {
-  color: #e03a3c;
+  color: #E50000;
 }
 
 .blog .entry .entry-footer .cats {
@@ -2083,7 +2083,7 @@ section {
 }
 
 .blog .blog-comments .comment h5 a:hover {
-  color: #e03a3c;
+  color: #E50000;
 }
 
 .blog .blog-comments .comment h5 .reply {
@@ -2184,7 +2184,7 @@ section {
 
 .blog .blog-pagination li.active,
 .blog .blog-pagination li:hover {
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
 }
 
 .blog .blog-pagination li.active a,
@@ -2235,7 +2235,7 @@ section {
   font-size: 16px;
   padding: 0 15px;
   margin: -1px;
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -2247,7 +2247,7 @@ section {
 }
 
 .blog .sidebar .search-form form button:hover {
-  background: linear-gradient(to right, #333333, #dd1818);
+  background: #E50000;
 }
 
 .blog .sidebar .categories ul {
@@ -2265,7 +2265,7 @@ section {
 }
 
 .blog .sidebar .categories ul a:hover {
-  color: #e03a3c;
+  color: #E50000;
 }
 
 .blog .sidebar .categories ul a span {
@@ -2295,7 +2295,7 @@ section {
 }
 
 .blog .sidebar .recent-posts h4 a:hover {
-  color: #e03a3c;
+  color: #E50000;
 }
 
 .blog .sidebar .recent-posts time {
@@ -2331,8 +2331,8 @@ section {
 
 .blog .sidebar .tags ul a:hover {
   color: #fff;
-  border: 1px solid #e03a3c;
-  background: #e03a3c;
+  border: 1px solid #E50000;;
+  background: #E50000;;
 }
 
 .blog .sidebar .tags ul a span {
@@ -2371,7 +2371,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #e03a3c;
+  background: #E50000;;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -2484,11 +2484,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #e03a3c;
+  border: 1px solid #E50000;;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #e03a3c;
+  background-color: #E50000;;
 }
 
 .portfolio-details .portfolio-info {
@@ -2541,7 +2541,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #e03a3c;
+  border-left: 2px solid #E50000;;
   position: relative;
 }
 
@@ -2550,8 +2550,8 @@ section {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #e03a3c;
+  font-family: "kanit", sans-serif;
+  color: #E50000;
   margin-bottom: 10px;
 }
 
@@ -2584,7 +2584,32 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: linear-gradient(to right, #333333, #dd1818);
-  border: 2px solid #e03a3c;
+  background: #E50000;
+  border: 2px solid #E50000;
 }
 
+/*** Service ***/
+.service-item {
+  transition: .5s;
+}
+
+.service-item:hover {
+  margin-top: -10px;
+  box-shadow: 0 .5rem 1.5rem rgb(241, 3, 3);
+}
+
+.service-item .btn {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  background: #E50000;
+  border-radius: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.service-item:hover .btn {
+  width: 140px;
+}
