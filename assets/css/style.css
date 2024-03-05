@@ -66,7 +66,7 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
+  left: 15px;
   bottom: 15px;
   z-index: 996;
   background: #E50000;
@@ -740,7 +740,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #E50000;
+  background: linear-gradient(to right, #333333, #dd1818);
   color: #fff;
   background-size: cover;
   padding: 60px 0;
